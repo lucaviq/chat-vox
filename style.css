@@ -1,0 +1,166 @@
+body{
+  margin:0;
+  background:#1e1e1e;
+  color:white;
+  font-family:Arial,sans-serif;
+}
+
+.hidden{
+  display:none;
+}
+
+.login-screen{
+  position:fixed;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#1e1e1e;
+}
+
+.login-box{
+  background:#2c2c2c;
+  padding:25px;
+  border-radius:12px;
+  width:300px;
+  text-align:center;
+  box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.login-box input{
+  width:100%;
+  box-sizing:border-box;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  margin:15px 0;
+  font-size:16px;
+}
+
+.login-box button{
+  width:100%;
+}
+
+.app{
+  max-width:700px;
+  margin:auto;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+}
+
+#userInfo{
+  text-align:center;
+  margin-bottom:20px;
+  color:#4fc3f7;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.controls{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+button{
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  margin:5px;
+  font-size:15px;
+  transition:0.2s;
+}
+
+button:hover:not(:disabled){
+  transform:scale(1.03);
+}
+
+button:disabled{
+  opacity:0.6;
+  cursor:not-allowed;
+}
+
+#recordBtn{
+  background:#28a745;
+  color:white;
+}
+
+#sendBtn{
+  background:#dc3545;
+  color:white;
+}
+
+#clearBtn{
+  background:#555;
+  color:white;
+}
+
+#recordingTime{
+  text-align:center;
+  font-size:42px;
+  font-weight:bold;
+  color:#ff4d4d;
+  margin-bottom:20px;
+}
+
+.reply-box{
+  background:#444;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+.reply-box button{
+  background:#dc3545;
+  color:white;
+}
+
+.message{
+  background:#2c2c2c;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.sender{
+  font-size:16px;
+  font-weight:bold;
+  color:#4fc3f7;
+  margin-bottom:10px;
+}
+
+.reply-preview{
+  background:#444;
+  padding:10px;
+  border-radius:6px;
+  margin-bottom:10px;
+  font-size:13px;
+  color:#ddd;
+}
+
+.duration{
+  margin-top:8px;
+  color:#bbb;
+  font-size:14px;
+}
+
+audio{
+  width:100%;
+  margin-top:10px;
+}
+
+.message button{
+  margin-top:10px;
+  background:#4fc3f7;
+  color:white;
+}
+
+.message button:hover{
+  opacity:0.9;
+}
+
+@media (max-width:600px){

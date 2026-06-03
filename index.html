@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CHATVOX</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="loginScreen" class="login-screen">
+
+  <div class="login-box">
+
+    <h1>🎙️ CHAT VOX</h1>
+
+    <input
+      type="text"
+      id="nicknameInput"
+      placeholder="Ingresa tu alias"
+      maxlength="20"
+    >
+
+    <button id="joinBtn">
+      Entrar
+    </button>
+
+  </div>
+
+</div>
+
+<div id="app" class="app hidden">
+
+  <h1>🎙️ CHAT VOX</h1>
+
+  <div id="userInfo"></div>
+
+  <div id="recordingTime">
+    00:00
+  </div>
+
+  <div class="controls">
+
+    <button id="recordBtn">
+      🎤 Grabar
+    </button>
+
+    <button id="sendBtn" disabled>
+      📤 Detener/Enviar Audio
+    </button>
+
+    <button id="clearBtn">
+      🗑️ Limpiar Chat
+    </button>
+
+  </div>
+
+  <div id="replyBox" class="reply-box hidden"></div>
+
+  <div id="messages"></div>
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
