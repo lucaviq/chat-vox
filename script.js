@@ -22,7 +22,7 @@ const userInfo =
 document.getElementById("userInfo");
 
 const recordingTime =
-document.getElementById("recordingTime");
+document.getElementById("recordingTime"); 
 
 const recordBtn =
 document.getElementById("recordBtn");
